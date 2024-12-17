@@ -1,6 +1,6 @@
 ﻿namespace DataStrucAndAlgo
 {
-    partial class Form1
+    partial class Dashboard
     {
         /// <summary>
         ///  Required designer variable.
@@ -35,20 +35,22 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe Print", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(222, 191);
+            label1.Location = new Point(254, 255);
             label1.Name = "label1";
-            label1.Size = new Size(346, 37);
+            label1.Size = new Size(446, 47);
             label1.TabIndex = 0;
             label1.Text = "Design Here (remove this label)";
             // 
-            // Form1
+            // Dashboard
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(label1);
-            Name = "Form1";
-            Text = "Form1";
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "Dashboard";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Dashboard";
             ResumeLayout(false);
             PerformLayout();
         }
