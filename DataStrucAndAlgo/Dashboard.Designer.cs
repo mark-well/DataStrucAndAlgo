@@ -47,7 +47,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1062, 673);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(3, 4, 3, 4);
+            MaximizeBox = false;
             Name = "Dashboard";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Dashboard";
